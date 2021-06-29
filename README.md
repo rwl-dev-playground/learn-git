@@ -44,6 +44,8 @@ $ brew install git
 - git cherry-pick
 
 ### 逆引き
+- [リポジトリをGitHubからローカルに持ってきたい](./usecase/#リポジトリをGitHubからローカルに持ってきたい)
+- [ローカルのフォルダをGit管理にしてGitHubにあげたい](./usecase/#ローカルのフォルダをGit管理にしてGitHubにあげたい)
 
 ## 参考文献
 - [Git公式ドキュメント](https://git-scm.com/docs)
