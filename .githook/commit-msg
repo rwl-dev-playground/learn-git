@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if grep "\(feat\|fix\|docs\|refactor\|style\|perf\|test\|chore\|ci\):\+" $1 > /dev/null; then
+    exit 0
+else
+    echo "コミットメッセージには特定の接頭辞（feat, fix, docs, refactor, style, perf, test, chore, ci）を付与してください"
+    echo "ex. \"feat: initial commit\""
+    exit 1
+fi

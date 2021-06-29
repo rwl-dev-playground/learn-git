@@ -6,6 +6,11 @@ Gitの再学習用のリポジトリ。
 
 https://ja.wikipedia.org/wiki/Git
 
+## 前準備
+``` bash
+npx zx set-git-hook.mjs
+```
+
 ## インストール
 ### Windows
 #### Chocolatey
@@ -50,3 +55,4 @@ $ brew install git
 ## 参考文献
 - [Git公式ドキュメント](https://git-scm.com/docs)
 - [Git - Wikipedia](https://ja.wikipedia.org/wiki/Git)
+- [かゆいところに手が届くgitフックスクリプト(クライアントサイド編)](https://www.unitrust.co.jp/2426)
