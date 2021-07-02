@@ -7,6 +7,9 @@ Gitの再学習用のリポジトリ。
 https://ja.wikipedia.org/wiki/Git
 
 ## 前準備
+作業をする前に、GitカスタムHooksをローカルリポジトリに登録するため以下のコマンドを実行してください。
+なお、Windowsには対応していません。
+
 ``` bash
 npx zx set-git-hook.mjs
 ```
