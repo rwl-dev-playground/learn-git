@@ -3,6 +3,7 @@
 ``` bash
 git clone https://github.com/windchime-yk/learn-git.git
 ```
+
 ### 余談
 GitHub CLIでもcloneできます。
 ``` bash
@@ -22,4 +23,16 @@ GitHub上にリポジトリがない場合、GitHub CLIで新規作成できま�
 
 ``` bash
 git repo create
+```
+
+## Gitコミットログを綺麗にしてPRを出したい
+``` bash
+# 以前のコミットにまとめたいファイルをGitに登録
+git add <target file>
+
+# まとめ先のコミットを指定し、`fixup!`のプレフィックスのついたコミットを作成する
+git commit --fixup <target hash>
+
+# まとめ先のコミットの前にあるコミットの番号を指定して、コミットをまとめる
+git rebase -i --autosquash <before target hash>
 ```
