@@ -36,3 +36,10 @@ git commit --fixup <target hash>
 # まとめ先のコミットの前にあるコミットの番号を指定して、コミットをまとめる
 git rebase -i --autosquash <before target hash>
 ```
+
+## まだpushしていない変更と比較したい変更を比較する
+pushしていない変更に不必要なものが含まれていないか確認するときに使えます。
+
+``` bash
+git diff <target hash> --staged
+```
